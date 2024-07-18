@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Selamat dan Biodata Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #cf1111;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            max-width: 200px; /* Adjust size as needed */
+            border-radius: 50%; /* Make it round */
+        }
+        a:link {
+            color: green;
+            background-color: #cf11;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Biodata Diri</h1>
+    <img src="c:\BIODATA DIRI AJID\Saved Pictures\jinuy.jpg" alt="Foto Profil" class="profile-img">
+    <div class="info">
+        <p><strong>Nama:</strong> ajidinnor</p>
+        <p><strong>Umur:</strong> 21 tahun</p>
+        <p><strong>Alamat:</strong> Jl.Alabio-danau panggan No. 123, Kota Hulu Sungai Utara</p>
+        <p><strong>Email:</strong> Ajidinnornordin@gmail.com</p>
+        <p><strong>No. Telepon:</strong> 0857058199348</p>
+    </div>
+    <h2>Pendidikan</h2>
+    <div class="info">
+        <p><strong>Universitas:</strong> Universitas Nahdatul Ulama Kalsel</p>
+        <p><strong>Jurusan:</strong> Teknik Informatika</p>
+        <p><strong>Tahun lulus:</strong> 2026</p>
+    </div>
+    <h2>Organisasi</h2>
+    <div class="info">
+        <p><strong>Nama Organisasi:</strong> IPNU KALSEL</p>
+        <p><strong>Jabatan:</strong> Komandan DKW CBP IPNU KALSEL</p>
+        <p><strong>Tahun Masuk:</strong> 2023</p>
+        <p><strong>Tahun Keluar:</strong> 2026</p>
+    </div>
+
+    <h2>Link Referensi</h2>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <script>
+        function ucapan() {
+            var nama = document.getElementById('nameInput').value;
+            var ucapan = "Selamat datang, " + nama + "! Di biodata kamu semoga kamu bahagia selalu.";
+            document.getElementById('message').innerText = ucapan;
+        }
+    </script>
+</body>
+</html>
